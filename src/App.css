@@ -1,0 +1,52 @@
+.card-bg {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ebd2d2;
+  margin-top: 15px;
+
+  padding: 20px;
+  border-radius: 15px;
+}
+.status {
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 200px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 24px;
+  display: inline-flex;
+  margin-right: 10px;
+}
+.done {
+  background-color: #00f300;
+  color: black;
+}
+.not-done {
+  background-color: #ff0000;
+  color: white;
+}
+.user-settings {
+  display: inline;
+}
+
+.functions {
+  display: inline-flex;
+}
+.delete-btn {
+  max-height: 50px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 800;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #e60000;
+  }
+}
